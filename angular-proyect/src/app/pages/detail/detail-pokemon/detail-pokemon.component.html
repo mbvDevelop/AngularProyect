@@ -1,0 +1,28 @@
+<section class="detail-tlt">
+  <h1>{{ pokemon?.pokemon }}</h1>
+</section>
+<section class="detail-pk">
+  <div class="box">
+    <div class="photo">
+      <img src="{{ pokemon?.url_image }}" alt="" />
+    </div>
+    <div class="characteriscs">
+      <div class="1">
+        <h2>Tipo :</h2>
+        <p>{{ pokemon?.type_1 }} / {{ pokemon?.type_2 }}</p>
+      </div>
+      <div class="2">
+        <h2>Movimientos :</h2>
+        <p>{{ pokemon?.ability_1 }} / {{ pokemon?.ability_2 }}</p>
+      </div>
+      <div class="3">
+        <h2>HP :</h2>
+        <p>{{ pokemon?.hp }}</p>
+      </div>
+      <div class="4">
+        <h2>Peso / Altura :</h2>
+        <p>{{ pokemon?.weight }} / {{ pokemon?.height }}</p>
+      </div>
+    </div>
+  </div>
+</section>
